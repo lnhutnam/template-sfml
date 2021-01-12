@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2020.2.3\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\test_sfml.dir/objects.a
+D:\Src\MinGW\bin\ar.exe cr CMakeFiles\test_sfml.dir/objects.a @CMakeFiles\test_sfml.dir\objects1.rsp
+D:\Src\MinGW\bin\g++.exe -g   -static -Wl,--whole-archive CMakeFiles\test_sfml.dir/objects.a -Wl,--no-whole-archive  -o test_sfml.exe -Wl,--out-implib,libtest_sfml.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\test_sfml.dir\linklibs.rsp
